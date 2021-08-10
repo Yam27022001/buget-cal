@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width:100px;
+  height:100px;
+}
+.budget_expense_balance{
+  display:flex;
+  flex-direction:row;
+  justify-content: left;
+  text-align: center;
+}
+#budget{
+  width:300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:10px;
+  
+}
+#expenses{
+  width:300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:10px;
+}
+
+
+#form1{
+  padding-left:12px;
+  padding-top:5px;
+  border: 1px solid green;
+}
+#form2{
+  padding-left:12px;
+  border: 1px solid red;
+}

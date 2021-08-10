@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>TRACK YOUR BUDGET</h1>
+    </header>
+
+    <div id="budget">
+        <form id="form1">
+            <label for="pleaseEnterYourBudget">Please Enter Your Budget</label><br>
+            <input type="text" id="PleaseEnterYourBudget"><br>
+            <input type="submit" value="Calculate" id="calculate">
+        </form>
+    </div>
+    <div id="expenses">
+        <form id="form2">
+            <label for="PleaseEnterYourExpense">Please Enter Your Expense</label><br>
+            <input type="text" id="PleaseEnterYourExpense"><br>
+            <label for="pleaseEnterYourExpenseAmount">Please Enter Your Expense Amount</label><br>
+            <input type="text" id="PleaseEnterYourExpenseAmount"><br>
+            <input type="submit" value="Add Expense" id="expense">
+        </form>
+        <div class="budget_expense_balance">
+            <div>
+                <h3>BUDGET</h3>
+                <img src="images/budget.jpg">
+                <div id='budget'>₹ 0</div>
+            </div>
+            <div>
+                <h3>EXPENSE</h3>
+                <img src="images/expense.png">
+                <div id="expenses">₹ 0</div>
+            </div>
+            <div>
+                <h3>BALANCE</h3>
+                <img src="images/balance.svg">
+                <div id="balance">₹ 0</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
